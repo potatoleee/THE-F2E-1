@@ -1,10 +1,32 @@
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { TextPlugin } from "gsap/TextPlugin";
+// 第一題的錯誤意思是要使用相對路徑 可以改成
+import { gsap, ScrollTrigger, TextPlugin } from "../../node_modules/gsap/all.js";
+// import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { TextPlugin } from "gsap/TextPlugin";
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 
 
-gsap.to('.box', {x: 100, duration:1,})
-gsap.to('.box', {y: 100, duration:1, delay: 1})
+const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".box1",
+      markers: true,
+      start: 'top 35%',
+      end: 'top 1%',
+      scrub: true,
+    },
+  })
+
+tl.to('.box1', {
+    top: 0,
+    left: '50%',
+    xPercent: '-50',
+    // duration: 10,
+    position: 'absolute',
+  }).to('.box1', {
+    top: '100%',
+    yPercent: '-100',
+    // duration: 20,
+    position: 'absolute',
+  })
