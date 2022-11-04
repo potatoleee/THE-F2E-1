@@ -1,8 +1,9 @@
 // 第一題的錯誤意思是要使用相對路徑 可以改成
 import { gsap, ScrollTrigger, TextPlugin } from "../../node_modules/gsap/all.js";
-// import { gsap } from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import { TextPlugin } from "gsap/TextPlugin";
+
+// import { gsap } from "../../node_modules/gsap";
+// import { ScrollTrigger } from "../../node_modules/gsap/ScrollTrigger";
+// import { TextPlugin } from "../../node_modules/gsap/TextPlugin";
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
