@@ -31,3 +31,22 @@ tl.to('.box1', {
     // duration: 20,
     position: 'absolute',
   })
+
+
+
+  VanillaTilt.init(document.querySelector(".image1"), {
+    max: 25,
+    scale: 1.1,
+    speed: 1000,
+  });
+  VanillaTilt.init(document.querySelector(".image2"), {
+    max: 25,
+    scale: 1.1,
+    speed: 1000,
+  });
+  VanillaTilt.init(document.querySelector(".image3"), {
+    max: 25,
+    scale: 1.1,
+    speed: 1000,
+  });
+  

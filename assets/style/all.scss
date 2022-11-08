@@ -1,35 +1,17 @@
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  .section1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #fd89b9;
-  }
+@import "../../node_modules/bootstrap/scss/functions";
 
-  .container1 {
-    position: relative;
-    margin-bottom: -100px;
-    width: 50%;
-    height: 30%;
-    background-color: #fff;
-    border: 1px solid #000;
-  }
+@import "./helpers/variables";
 
-  .box1 {
-    width: 100px;
-    height: 100px;
-    background-color: #165e83;
-  }
+@import "../../node_modules/bootstrap/scss/utilities";
 
-  .section2 {
-    display: flex;
-    justify-content: center;
-    padding: 200px 0;
-    background-color: #fd89b9;
-    // background-color: #1e2a60;
-  }
+@import "./helpers/utilities";
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+// base
+@import "./base/base";
+
+//pages
+@import "./pages/index";
