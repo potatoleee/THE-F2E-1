@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'genSen-H';
+    src: url('./font-GenSen/GenSenRoundedTW-H-01.woff')format("woff");
+}
+@font-face {
+    font-family: 'genSen-M';
+    src: url('./font-GenSen/GenSenRounded-M.woff')format("woff");
+}
+
+.font-genSen-h{
+    font-family: 'genSen-H';
+}
+.font-genSen-m{
+    font-family: 'genSen-M';
+}
