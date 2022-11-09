@@ -41,18 +41,11 @@ $utilities: map-merge(
       )
     ),
     "font-weight": (
-      responsive: true,
-      property: font-weight,
-      class: fw,
-      values: (
-        light: $font-weight-light,
-        lighter: $font-weight-lighter,
-        normal: $font-weight-normal,
-        medium: $font-weight-medium,
-        bold: $font-weight-bold,
-        bolder: $font-weight-bolder
-      )
-    ),
+        responsive: true,
+        property: font-weight,
+        class: fw,
+        values: $weightValue
+      ),
     "border-color": (
       responsive: true,
       property: border-color,
@@ -166,6 +159,30 @@ $utilities: map-merge(
                 100:100%,
                 ) 
                 
+            ),
+            "letter-spacing": (
+              responsive: true,
+              property: letter-spacing,
+              class: letterSpace,
+              values:( 
+                2:  2px,
+                4:  4px,
+                8:  8px,
+                12: 12px,
+                16: 16px,
+                24: 24px,
+                32: 32px
+                ) 
+                
+            ),
+            "z-index":(
+              property: z-index,
+              class: z,
+              values: (
+                1:1,
+                2:2,
+                3:3,
+              ),
             ),
    
     )

@@ -13,3 +13,19 @@
 .font-genSen-m{
     font-family: 'genSen-M';
 }
+
+.font-georama{
+    font-family: 'Georama', sans-serif;
+}
+
+.title-stroke{
+    color:transparent;
+    -webkit-text-stroke: 1px $primary;
+}
+.text-outline{
+    color:transparent;
+    -webkit-text-stroke: 2px $darker;
+    transition: all .8s;
+    letter-spacing: 1px;
+
+}

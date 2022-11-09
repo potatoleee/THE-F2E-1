@@ -7,7 +7,12 @@ import { gsap, ScrollTrigger, TextPlugin } from "../../node_modules/gsap/all.js"
 
 gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
-
+gsap.to(".loop", {
+  xPercent: "-50", 
+  ease: "none",
+  duration: 10,
+  repeat: -1,
+});
 
 const tl = gsap.timeline({
     scrollTrigger: {
