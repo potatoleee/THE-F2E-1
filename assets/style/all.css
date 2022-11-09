@@ -18030,4 +18030,17 @@ sub {
 .star__2 {
   left: 24px;
   bottom: 24px;
+}
+.star__3 {
+  top: -46px;
+}
+.star__4 {
+  bottom: -50px;
+}
+
+.rectangle__phone {
+  background-image: url("../images/Rectangle-phone.png");
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=all.css.map */

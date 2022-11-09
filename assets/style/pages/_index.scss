@@ -56,10 +56,23 @@
 .star{
     &__1{
         right: 13%;
-        top:-20px;
+        top: -20px;
     }
     &__2{
         left: 24px;
         bottom: 24px;
     }
+    &__3{
+        top: -46px;
+    }
+    &__4{
+        bottom: -50px;
+    }
+}
+
+.rectangle__phone{
+    background-image: url('../images/Rectangle-phone.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
 }
