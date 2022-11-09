@@ -30,6 +30,7 @@
     }
 
 }
+
 .green-oval{
     background-image: url(../images/green-oval.png);
     background-size: auto;
@@ -37,12 +38,20 @@
     background-repeat: no-repeat;
     padding-bottom:140px ;
     margin-bottom: 20px;
+    @include d-phone {
+        background-size: 68%;
+    }
+  
 }
+
 .black-oval{
     background-image: url(../images/black-oval.png);
     background-size: auto;
     background-position: center 78px;
     background-repeat: no-repeat;
+    @include d-phone {
+        background-size: 68%;
+    }
 }
 .star{
     &__1{

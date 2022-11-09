@@ -9,15 +9,3 @@
         @content
     }
 }
-
-@mixin m-pad{
-    @media (min-width:768px) {
-        @content
-    }
-}
-
-@mixin m-pc{
-    @media (min-width:992px) {
-        @content
-    }
-}

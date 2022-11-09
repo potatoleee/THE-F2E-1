@@ -18005,12 +18005,22 @@ sub {
   padding-bottom: 140px;
   margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+  .green-oval {
+    background-size: 68%;
+  }
+}
 
 .black-oval {
   background-image: url(../images/black-oval.png);
   background-size: auto;
   background-position: center 78px;
   background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+  .black-oval {
+    background-size: 68%;
+  }
 }
 
 .star__1 {
