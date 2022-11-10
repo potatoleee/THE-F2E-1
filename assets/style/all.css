@@ -7858,6 +7858,10 @@ textarea.form-control-lg {
   width: 1px !important;
 }
 
+.w-3n {
+  width: 12px !important;
+}
+
 .w-4n {
   width: 16px !important;
 }
@@ -7940,6 +7944,10 @@ textarea.form-control-lg {
 
 .min-vw-100 {
   min-width: 100vw !important;
+}
+
+.h-3n {
+  height: 12px !important;
 }
 
 .h-4n {
@@ -10278,6 +10286,9 @@ textarea.form-control-lg {
   .w-sm-1 {
     width: 1px !important;
   }
+  .w-sm-3n {
+    width: 12px !important;
+  }
   .w-sm-4n {
     width: 16px !important;
   }
@@ -10331,6 +10342,9 @@ textarea.form-control-lg {
   }
   .w-sm-95 {
     width: 95% !important;
+  }
+  .h-sm-3n {
+    height: 12px !important;
   }
   .h-sm-4n {
     height: 16px !important;
@@ -11847,6 +11861,9 @@ textarea.form-control-lg {
   .w-md-1 {
     width: 1px !important;
   }
+  .w-md-3n {
+    width: 12px !important;
+  }
   .w-md-4n {
     width: 16px !important;
   }
@@ -11900,6 +11917,9 @@ textarea.form-control-lg {
   }
   .w-md-95 {
     width: 95% !important;
+  }
+  .h-md-3n {
+    height: 12px !important;
   }
   .h-md-4n {
     height: 16px !important;
@@ -13416,6 +13436,9 @@ textarea.form-control-lg {
   .w-lg-1 {
     width: 1px !important;
   }
+  .w-lg-3n {
+    width: 12px !important;
+  }
   .w-lg-4n {
     width: 16px !important;
   }
@@ -13469,6 +13492,9 @@ textarea.form-control-lg {
   }
   .w-lg-95 {
     width: 95% !important;
+  }
+  .h-lg-3n {
+    height: 12px !important;
   }
   .h-lg-4n {
     height: 16px !important;
@@ -14985,6 +15011,9 @@ textarea.form-control-lg {
   .w-xl-1 {
     width: 1px !important;
   }
+  .w-xl-3n {
+    width: 12px !important;
+  }
   .w-xl-4n {
     width: 16px !important;
   }
@@ -15038,6 +15067,9 @@ textarea.form-control-lg {
   }
   .w-xl-95 {
     width: 95% !important;
+  }
+  .h-xl-3n {
+    height: 12px !important;
   }
   .h-xl-4n {
     height: 16px !important;
@@ -16554,6 +16586,9 @@ textarea.form-control-lg {
   .w-xxl-1 {
     width: 1px !important;
   }
+  .w-xxl-3n {
+    width: 12px !important;
+  }
   .w-xxl-4n {
     width: 16px !important;
   }
@@ -16607,6 +16642,9 @@ textarea.form-control-lg {
   }
   .w-xxl-95 {
     width: 95% !important;
+  }
+  .h-xxl-3n {
+    height: 12px !important;
   }
   .h-xxl-4n {
     height: 16px !important;

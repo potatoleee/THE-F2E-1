@@ -93,6 +93,7 @@ $utilities: map-merge(
         responsive: true,
         class: h,
         values: (
+          3n: 12px,
           4n: 16px,
           5n: 20px,
           6n: 24px,
@@ -122,6 +123,7 @@ $utilities: map-merge(
                 map-get(map-get($utilities, "width"), "values"),
                 ( 
                   1 :1px,
+                  3n:12px,
                   4n: 16px,
                   8n: 32px,
                   10n :40px,
