@@ -115,3 +115,109 @@
         padding-top: 10px;
     }
 }
+
+.break__circle--gray{
+    max-width: 1800px;
+    padding-bottom: 100%;
+    object-fit: cover;
+    background-color: $light-orange;
+    border-radius: 100%;
+}
+.big-gray{
+    background-image: url("../images/bigCircle-gray.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1800px;
+}
+.orange-circle{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+// .break__title{
+//     position: relative;
+//     &::before{
+//         content: "網頁互動式設計";
+//         position: absolute;
+//         background-image: url(../images/cloud-white.svg);
+//         background-size: auto;
+//         background-position: center;
+//         background-repeat: no-repeat;
+//         width: 100%;
+//         height: 161px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//     }
+// }
+.break__title{
+    position: absolute;
+    top:14%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    &__bg{
+        position: absolute;
+        top:12%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+.grayCircle__img{
+    &--eyes{
+        top: 30%;
+        left: 38%;
+     
+    }
+    &--muiltCircle{
+        top:25%;
+         left:61%;
+        
+    }
+    &--figma{
+        top:26%;
+         left: 74%;
+    }
+    &--greenCloud{
+        top:36%;
+        left: 10%;
+      
+    }
+}
+
+.grayCircle__text{
+    &--hello{
+        top:24%;
+        left:25%;
+    }
+    &--ui{
+        top:23%;
+        left: 42%;
+        
+    }
+    &--front{
+        top:30%;
+        left:23%;
+    }
+    &--word{
+        top:35%;
+        left:38%;
+    }
+}
+.orange__text{
+    &--year{
+        bottom: 38%;
+        z-index: 3;
+    }
+    &--three{
+        bottom: 33%;
+        z-index: 3;
+    }
+    &--text{
+        bottom: 27%;
+        left: 37%;
+        z-index: 3;
+    }
+
+}
