@@ -38,7 +38,16 @@ gsap.to(".loop", {
 
 const tl = gsap.timeline({
     scrollTrigger: {
-      trigger: ".box1",
+      trigger: ".orange__text--text",
+      markers: true,
+      start: 'top 35%',
+      end: 'top 1%',
+      scrub: true,
+    },
+  })
+const tk = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".orange__text--text",
       markers: true,
       start: 'top 35%',
       end: 'top 1%',
@@ -46,13 +55,36 @@ const tl = gsap.timeline({
     },
   })
 
-tl.to('.box1', {
+tl.to('.orange-circle', {
     top: 0,
     top: '-100%',
     // yPercent: '-100',
     duration: 1000,
     position: 'absolute',
   })
+
+// tk.to('.gray-circle', {
+//     top: 0,
+//     top: '100%',
+//     // yPercent: '-100',
+//     duration: 1000,
+//     position: 'absolute',
+//   })
+
+
+const srollTL = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".week",
+    pin: true,
+    markers: true,
+    scrub: true,
+  },
+});
+
+srollTL.to(".week__content--1", { yPercent: "-135" });
+srollTL.to(".week__title--1", { xPercent: "-100" }, "<");
+srollTL.to(".week__content--2", { yPercent: "-135" });
+srollTL.to(".week__title--2", { xPercent: "-100" }, "<");
 
 
 

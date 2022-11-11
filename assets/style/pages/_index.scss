@@ -219,5 +219,89 @@
         left: 37%;
         z-index: 3;
     }
+    &--star{
+        left: 33%;
+        bottom: 38%;
+        z-index: 2;
+    }
+    &--greenCloud{
+        bottom: 23%;
+        right: 21%;
+        z-index: 2;
+    }
 
 }
+.week{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    background-color: $light-orange;
+}
+.lineDeco{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: "";
+        width: 100vw;
+        height: 2px;
+        background-color: rgb(0, 0, 0);
+        top: 100px;
+        z-index: 100;
+        left: 100%;
+
+    }   
+}
+
+.week__title {
+    position: absolute;
+    width: 100%;
+    height: 46%;
+    top:0;
+    left:0;
+    background: #F1EDE9;
+    font-size: 202px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include d-phone{
+        font-size: 40px;
+    }
+
+    &--1{
+        z-index: 30;
+
+    }
+    &--2{
+        z-index: 29;
+    }
+    &--3{
+        z-index: 28;
+    }
+
+  }
+ 
+  .week__content{
+    position: absolute;
+    width: 100%;
+    height: 54%;
+    bottom:0;
+    left:0;
+    z-index: 27;
+    background: #F1EDE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--1{
+        z-index: 28;
+    }
+    &--2{
+        z-index: 27;
+    }
+    &--3{
+        z-index: 26;
+    }
+  }
+ 
+
+  
