@@ -136,6 +136,7 @@ smile3.to('.smile', {
   position: 'absolute',
   rotation: 65,
 })
+// gsap.to('.review', {x: 100, duration:1,})
 
 
 scrollTL.to(".week__content--1", { yPercent: "-135" });

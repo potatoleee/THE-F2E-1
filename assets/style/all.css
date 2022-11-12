@@ -9688,8 +9688,12 @@ textarea.form-control-lg {
   font-family: var(--bs-font-monospace) !important;
 }
 
-.fs-xl {
+.fs-xxl {
   font-size: calc(2.3875rem + 13.65vw) !important;
+}
+
+.fs-xl {
+  font-size: calc(1.875rem + 7.5vw) !important;
 }
 
 .fs-1 {
@@ -10037,6 +10041,10 @@ textarea.form-control-lg {
 
 .rounded-3 {
   border-radius: 3.125rem !important;
+}
+
+.rounded-100 {
+  border-radius: 100px !important;
 }
 
 .rounded-circle {
@@ -11697,8 +11705,11 @@ textarea.form-control-lg {
   .ps-sm-85p {
     padding-left: 85% !important;
   }
-  .fs-sm-xl {
+  .fs-sm-xxl {
     font-size: calc(2.3875rem + 13.65vw) !important;
+  }
+  .fs-sm-xl {
+    font-size: calc(1.875rem + 7.5vw) !important;
   }
   .fs-sm-1 {
     font-size: calc(1.625rem + 4.5vw) !important;
@@ -13278,8 +13289,11 @@ textarea.form-control-lg {
   .ps-md-85p {
     padding-left: 85% !important;
   }
-  .fs-md-xl {
+  .fs-md-xxl {
     font-size: calc(2.3875rem + 13.65vw) !important;
+  }
+  .fs-md-xl {
+    font-size: calc(1.875rem + 7.5vw) !important;
   }
   .fs-md-1 {
     font-size: calc(1.625rem + 4.5vw) !important;
@@ -14859,8 +14873,11 @@ textarea.form-control-lg {
   .ps-lg-85p {
     padding-left: 85% !important;
   }
-  .fs-lg-xl {
+  .fs-lg-xxl {
     font-size: calc(2.3875rem + 13.65vw) !important;
+  }
+  .fs-lg-xl {
+    font-size: calc(1.875rem + 7.5vw) !important;
   }
   .fs-lg-1 {
     font-size: calc(1.625rem + 4.5vw) !important;
@@ -16440,8 +16457,11 @@ textarea.form-control-lg {
   .ps-xl-85p {
     padding-left: 85% !important;
   }
-  .fs-xl-xl {
+  .fs-xl-xxl {
     font-size: calc(2.3875rem + 13.65vw) !important;
+  }
+  .fs-xl-xl {
+    font-size: calc(1.875rem + 7.5vw) !important;
   }
   .fs-xl-1 {
     font-size: calc(1.625rem + 4.5vw) !important;
@@ -18021,8 +18041,11 @@ textarea.form-control-lg {
   .ps-xxl-85p {
     padding-left: 85% !important;
   }
-  .fs-xxl-xl {
+  .fs-xxl-xxl {
     font-size: calc(2.3875rem + 13.65vw) !important;
+  }
+  .fs-xxl-xl {
+    font-size: calc(1.875rem + 7.5vw) !important;
   }
   .fs-xxl-1 {
     font-size: calc(1.625rem + 4.5vw) !important;
@@ -18170,8 +18193,11 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1200px) {
-  .fs-xl {
+  .fs-xxl {
     font-size: 12.625rem !important;
+  }
+  .fs-xl {
+    font-size: 7.5rem !important;
   }
   .fs-1 {
     font-size: 5rem !important;
@@ -18200,8 +18226,11 @@ textarea.form-control-lg {
   .fs-9 {
     font-size: 1.5rem !important;
   }
-  .fs-sm-xl {
+  .fs-sm-xxl {
     font-size: 12.625rem !important;
+  }
+  .fs-sm-xl {
+    font-size: 7.5rem !important;
   }
   .fs-sm-1 {
     font-size: 5rem !important;
@@ -18230,8 +18259,11 @@ textarea.form-control-lg {
   .fs-sm-9 {
     font-size: 1.5rem !important;
   }
-  .fs-md-xl {
+  .fs-md-xxl {
     font-size: 12.625rem !important;
+  }
+  .fs-md-xl {
+    font-size: 7.5rem !important;
   }
   .fs-md-1 {
     font-size: 5rem !important;
@@ -18260,8 +18292,11 @@ textarea.form-control-lg {
   .fs-md-9 {
     font-size: 1.5rem !important;
   }
-  .fs-lg-xl {
+  .fs-lg-xxl {
     font-size: 12.625rem !important;
+  }
+  .fs-lg-xl {
+    font-size: 7.5rem !important;
   }
   .fs-lg-1 {
     font-size: 5rem !important;
@@ -18697,6 +18732,7 @@ sub {
 
 .timeLine {
   margin-top: 300px;
+  margin-bottom: 300px;
 }
 
 .timeLine__singUp {
@@ -18737,4 +18773,35 @@ sub {
 .timeLine__steam__time {
   bottom: -5%;
   right: 20%;
+}
+
+.list-style-position-inside {
+  list-style-position: inside;
+}
+
+.list-style-disc {
+  list-style: disc;
+}
+
+.review {
+  position: absolute;
+}
+.review::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #4E7B57;
+  left: -88%;
+  top: 0;
+  z-index: -1;
+}
+.review__wrap {
+  margin-top: 160px;
+  position: relative;
+}
+.review__title {
+  top: -37px;
+  left: 50%;
+  transform: translateX(-50%);
 }/*# sourceMappingURL=all.css.map */
