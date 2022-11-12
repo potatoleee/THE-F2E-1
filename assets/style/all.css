@@ -10232,6 +10232,10 @@ textarea.form-control-lg {
   letter-spacing: 8px !important;
 }
 
+.letterSpace-10 {
+  letter-spacing: 10px !important;
+}
+
 .letterSpace-12 {
   letter-spacing: 12px !important;
 }
@@ -11825,6 +11829,9 @@ textarea.form-control-lg {
   .letterSpace-sm-8 {
     letter-spacing: 8px !important;
   }
+  .letterSpace-sm-10 {
+    letter-spacing: 10px !important;
+  }
   .letterSpace-sm-12 {
     letter-spacing: 12px !important;
   }
@@ -13402,6 +13409,9 @@ textarea.form-control-lg {
   }
   .letterSpace-md-8 {
     letter-spacing: 8px !important;
+  }
+  .letterSpace-md-10 {
+    letter-spacing: 10px !important;
   }
   .letterSpace-md-12 {
     letter-spacing: 12px !important;
@@ -14981,6 +14991,9 @@ textarea.form-control-lg {
   .letterSpace-lg-8 {
     letter-spacing: 8px !important;
   }
+  .letterSpace-lg-10 {
+    letter-spacing: 10px !important;
+  }
   .letterSpace-lg-12 {
     letter-spacing: 12px !important;
   }
@@ -16558,6 +16571,9 @@ textarea.form-control-lg {
   }
   .letterSpace-xl-8 {
     letter-spacing: 8px !important;
+  }
+  .letterSpace-xl-10 {
+    letter-spacing: 10px !important;
   }
   .letterSpace-xl-12 {
     letter-spacing: 12px !important;
@@ -18137,6 +18153,9 @@ textarea.form-control-lg {
   .letterSpace-xxl-8 {
     letter-spacing: 8px !important;
   }
+  .letterSpace-xxl-10 {
+    letter-spacing: 10px !important;
+  }
   .letterSpace-xxl-12 {
     letter-spacing: 12px !important;
   }
@@ -18667,4 +18686,55 @@ sub {
 }
 .week__content--3 {
   z-index: 26;
+}
+
+.smile {
+  position: absolute;
+  top: 19%;
+  transform: rotate(-12.37deg);
+  left: 15%;
+}
+
+.timeLine {
+  margin-top: 300px;
+}
+
+.timeLine__singUp {
+  position: absolute;
+  top: 0%;
+  left: 33%;
+}
+.timeLine__singUp__time {
+  top: 9%;
+  right: 13%;
+}
+
+.timeLine__start {
+  position: absolute;
+  top: 28%;
+  left: 55%;
+}
+.timeLine__start__time {
+  top: 37%;
+  right: 10%;
+}
+
+.timeLine__upload {
+  position: absolute;
+  top: 59%;
+  left: 55%;
+}
+.timeLine__upload__time {
+  top: 68%;
+  right: 14%;
+}
+
+.timeLine__steam {
+  position: absolute;
+  bottom: 0%;
+  left: 45%;
+}
+.timeLine__steam__time {
+  bottom: -5%;
+  right: 20%;
 }/*# sourceMappingURL=all.css.map */

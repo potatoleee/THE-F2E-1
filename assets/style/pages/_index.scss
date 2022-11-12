@@ -302,6 +302,54 @@
         z-index: 26;
     }
   }
- 
 
-  
+.smile{
+    position: absolute;
+    top: 19%;
+    transform: rotate(-12.37deg);
+    left: 15%;
+}
+ 
+.timeLine{
+    margin-top: 300px;
+}
+
+.timeLine__singUp{
+    position: absolute;
+    top: 0%;
+    left: 33%;
+    &__time{
+        top: 9%;
+        right: 13%;
+    }
+}
+
+.timeLine__start{
+    position: absolute;
+    top: 28%;
+    left: 55%;
+    &__time{
+        top: 37%;
+        right: 10%;
+    }
+}
+
+.timeLine__upload{
+    position: absolute;
+    top: 59%;
+    left: 55%;
+    &__time{
+        top: 68%;
+        right: 14%;
+    }
+}
+
+.timeLine__steam{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+    &__time{
+        bottom: -5%;
+        right: 20%;
+    }
+}

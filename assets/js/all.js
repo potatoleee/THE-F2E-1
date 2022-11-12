@@ -36,6 +36,8 @@ gsap.to(".loop", {
   repeat: -1,
 });
 
+
+
 const tl = gsap.timeline({
     scrollTrigger: {
       trigger: ".orange__text--text",
@@ -55,8 +57,9 @@ const tk = gsap.timeline({
     },
   })
 
+
+
 tl.to('.orange-circle', {
-    top: 0,
     top: '-100%',
     // yPercent: '-100',
     duration: 1000,
@@ -72,7 +75,7 @@ tl.to('.orange-circle', {
 //   })
 
 
-const srollTL = gsap.timeline({
+const scrollTL = gsap.timeline({
   scrollTrigger: {
     trigger: ".week",
     pin: true,
@@ -81,27 +84,66 @@ const srollTL = gsap.timeline({
   },
 });
 
-srollTL.to(".week__content--1", { yPercent: "-135" });
-srollTL.to(".week__title--1", { xPercent: "-100" }, "<");
-srollTL.to(".week__content--2", { yPercent: "-135" });
-srollTL.to(".week__title--2", { xPercent: "-100" }, "<");
+
+const smile = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".timeLine__singUp__time",
+    markers: true,
+    start: 'top 35%',
+    end: 'top 1%',
+    scrub: true,
+  },
+})
+const smile2 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".timeLine__start__time",
+    markers: true,
+    start: 'top 35%',
+    end: 'top 1%',
+    scrub: true,
+  },
+})
+const smile3 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".timeLine__upload",
+    markers: true,
+    start: 'top 35%',
+    end: 'top 1%',
+    scrub: true,
+  },
+})
 
 
 
-  VanillaTilt.init(document.querySelector(".image1"), {
-    max: 25,
-    scale: 1.1,
-    speed: 1000,
-  });
-  VanillaTilt.init(document.querySelector(".image2"), {
-    max: 25,
-    scale: 1.1,
-    speed: 1000,
-  });
-  VanillaTilt.init(document.querySelector(".image3"), {
-    max: 25,
-    scale: 1.1,
-    speed: 1000,
-  });
+smile.to('.smile',{
+  top: '32%',
+  // yPercent: '-100',
+  duration: 10,
+  position: 'absolute',
+  rotation: 20,
+})
+smile2.to('.smile', {
+  top: '50%',
+  left: '17%',
+  duration: 10,
+  position: 'absolute',
+  rotation: 45,
+})
+smile3.to('.smile', {
+  top: '70%',
+  left: '17%',
+  duration: 10,
+  position: 'absolute',
+  rotation: 65,
+})
+
+
+scrollTL.to(".week__content--1", { yPercent: "-135" });
+scrollTL.to(".week__title--1", { xPercent: "-100" }, "<");
+scrollTL.to(".week__content--2", { yPercent: "-135" });
+scrollTL.to(".week__title--2", { xPercent: "-100" }, "<");
+
+
+
 
   
